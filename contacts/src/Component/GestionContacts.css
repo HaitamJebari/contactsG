@@ -62,7 +62,7 @@
   
   
   /*MOBILE*/
-  @media screen and (max-width:209px){
+  @media screen and (max-width:500px){
     .nom{
         width: 100px;
         padding-bottom: 1%;
