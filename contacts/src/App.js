@@ -1,10 +1,10 @@
+import GestionContacts from './Component/GestionContacts'
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      
+      <GestionContacts/>
     </div>
   );
 }

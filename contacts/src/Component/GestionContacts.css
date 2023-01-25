@@ -1,0 +1,87 @@
+#contacts{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 15%, rgba(29,253,119,1) 55%, rgba(69,252,204,1) 89%);
+  }
+  h1{
+    text-align: center;
+  }
+  .comp1{
+    text-align: center;
+  }
+  form {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .ch{
+    border-radius: 10px;
+   border-color: #f5f5dc;
+   
+  }
+  .nom{
+   width: 250px;
+   border-radius: 10px;
+   border-color: beige;
+   
+  }
+  .ville{
+    width: 250px;
+    border-radius: 10px;
+    border-color: beige;
+  }
+  .tel{
+    width: 250px;
+    border-radius: 10px;
+    border-color: beige;
+  }
+  .aj{
+    width: 100px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+  }
+  .Trier{
+    width: 100px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+  }
+  .sup{
+    background-color: rgb(234, 44, 44);
+    color: aliceblue;
+    border-radius: 10px;
+  }
+  #butt{
+    padding-right: 0%;
+  }
+  table {
+    width: 95%;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  
+  /*MOBILE*/
+  @media screen and (max-width:209px){
+    .nom{
+        width: 100px;
+        padding-bottom: 1%;
+     }
+     .ville{
+         width: 100px;
+         padding-bottom: 1%;
+     }
+     .tel{
+         width: 100px;
+         padding-bottom: 1%;
+     }
+     .aj{
+        width: 100px;
+        padding-bottom: 1%;
+     }
+     .sup{
+        width: 100px;
+        padding-bottom: 1%;
+     }
+     
+  }
